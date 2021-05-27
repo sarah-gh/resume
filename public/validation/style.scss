@@ -1,0 +1,248 @@
+body {
+    color: #fff;
+    background: #949c4e;
+    background: linear-gradient( 115deg, rgba(86, 216, 228, 1) 10%, rgba(159, 1, 234, 1) 90%);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#app3 {
+    display: flex;
+    width: 80%;
+    margin: 150px auto 0 auto;
+    opacity: 0.5;
+    transition: 1s ease all;
+    &:hover,
+    &:active,
+    &:focus,
+    &:visited,
+    &:focus-visible,
+    &:focus-within {
+        opacity: 1;
+    }
+    .vue-form {
+        font-size: 16px;
+        padding: 15px 30px;
+        border-radius: 4px;
+        margin: 50px 20px;
+        flex-grow: 1.5;
+        background-color: #fff;
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3);
+        fieldset {
+            margin: 24px 0 0 0;
+        }
+        legend {
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ecf0f1;
+            color: #636566;
+            text-align: center;
+        }
+        div {
+            position: relative;
+            margin: 20px 0;
+        }
+        h4,
+        .label {
+            color: #94aab0;
+            margin-bottom: 10px;
+        }
+        .label {
+            display: block;
+        }
+        input,
+        textarea,
+        select,
+        label {
+            color: #2b3e51;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="tel"],
+        textarea,
+        select,
+        legend {
+            display: block;
+            width: 100%;
+            appearance: none;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="tel"],
+        textarea,
+        select {
+            padding: 12px;
+            border: 1px solid #cfd9db;
+            background-color: #ffffff;
+            border-radius: 0.25em;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08);
+        }
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="password"]:focus,
+        input[type="tel"]:focus,
+        textarea:focus,
+        select:focus {
+            outline: none;
+            border-color: #2c3e50;
+            box-shadow: 0 0 5px rgba(44, 151, 222, 0.2);
+        }
+        textarea {
+            min-height: 200px;
+            resize: vertical;
+            overflow: auto;
+        }
+        .textarea_label {
+            margin: 40px 0 0 0;
+        }
+        .error {
+            border-color: #e94b35 !important;
+            box-shadow: outset 0 1px 1px rgba(228, 0, 0, 0.205);
+        }
+        .counter {
+            background-color: #b8bdbd;
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            font-size: 10px;
+            padding: 4px;
+        }
+        button {
+            margin-bottom: 200px;
+        }
+    }
+}
+
+.debug {
+    border-radius: 4px;
+    margin: 50px 20px;
+    width: 500px;
+    background-color: #000;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3);
+    pre {
+        // color: #ffffff;
+        font-size: 18px;
+        padding: 15px;
+        line-height: 30px;
+        font-family: "Source Code Pro", monospace;
+        font-weight: 300;
+        white-space: pre-wrap;
+    }
+}
+
+pre {
+    background-color: #f5f5f53b;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1067px) {
+    #app3 {
+        display: flex;
+        width: 90%;
+        margin: 150px auto 0 auto;
+        opacity: 1;
+        transition: 1s ease all;
+        .error-message {
+            margin: 10px;
+            height: 10px;
+            p {
+                color: #be0000;
+                font-size: 11px;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                // padding: 16px;
+            }
+        }
+    }
+    .debug {
+        border-radius: 4px;
+        margin: 50px 20px;
+        width: 300px;
+        background-color: #000;
+        padding: 30px;
+        background: rgba(0, 0, 0, 0.8);
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3);
+        display: none;
+        pre {
+            // color: #ffffff;
+            font-size: 15px;
+            padding: 15px;
+            line-height: 30px;
+            font-family: "Source Code Pro", monospace;
+            font-weight: 300;
+            white-space: pre-wrap;
+        }
+    }
+}
+
+@media screen and (min-width: 1067px) {
+    #app3 {
+        display: flex;
+        width: 80%;
+        margin: 150px auto 0 auto;
+        opacity: 0.5;
+        transition: 1s ease all;
+        &:hover,
+        &:active,
+        &:focus,
+        &:visited,
+        &:focus-visible,
+        &:focus-within {
+            opacity: 1;
+        }
+        .error-message {
+            margin: 10px;
+            height: 12px;
+            p {
+                color: #be0000;
+                font-size: 13px;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                // padding: 16px;
+            }
+        }
+    }
+    .debug {
+        border-radius: 4px;
+        margin: 50px 20px;
+        width: 300px;
+        background-color: #000;
+        padding: 30px;
+        background: rgba(0, 0, 0, 0.8);
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3);
+        pre {
+            // color: #ffffff;
+            font-size: 15px;
+            padding: 15px;
+            line-height: 30px;
+            font-family: "Source Code Pro", monospace;
+            font-weight: 300;
+            white-space: pre-wrap;
+        }
+    }
+}
+
+@media screen and (min-width: 1367px) {
+    .debug {
+        border-radius: 4px;
+        margin: 50px 20px;
+        width: 500px;
+        background-color: #000;
+        padding: 30px;
+        background: rgba(0, 0, 0, 0.8);
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3);
+        pre {
+            // color: #ffffff;
+            font-size: 18px;
+            padding: 15px;
+            line-height: 30px;
+            font-family: "Source Code Pro", monospace;
+            font-weight: 300;
+            white-space: pre-wrap;
+        }
+    }
+}
