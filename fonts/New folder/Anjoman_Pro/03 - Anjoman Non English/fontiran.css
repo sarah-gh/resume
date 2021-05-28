@@ -1,0 +1,472 @@
+﻿ /**
+*
+*	Name:			Anjoman Fonts
+*	Version:			2.0
+*	Author:			Moslem Ebrahimi (moslemebrahimi.com)
+*	Created on:		April 4, 2020
+*	Updated on:		April 4, 2020
+*	Website:			http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت انجمن یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+Anjoman fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com 
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (.....)
+------------------------------------------------------------------------------------- fonts/-
+*	
+**/
+
+@font-face {
+	font-family: Anjoman;
+	font-style: normal;
+	font-weight: 100;
+	src: url('fonts/eot/Anjoman-NoEn-Thin.eot');
+	src: url('fonts/eot/Anjoman-NoEn-Thin.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-Thin.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-Thin.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: normal;
+	font-weight: 200;
+	src: url('fonts/eot/Anjoman-NoEn-ExtraLight.eot');
+	src: url('fonts/eot/Anjoman-NoEn-ExtraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-ExtraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-ExtraLight.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: normal;
+	font-weight: 300;
+	src: url('fonts/eot/Anjoman-NoEn-Light.eot');
+	src: url('fonts/eot/Anjoman-NoEn-Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-Light.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: normal;
+	font-weight: 500;
+	src: url('fonts/eot/Anjoman-NoEn-Medium.eot');
+	src: url('fonts/eot/Anjoman-NoEn-Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-Medium.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: normal;
+	font-weight: 600;
+	src: url('fonts/eot/Anjoman-NoEn-SemiBold.eot');
+	src: url('fonts/eot/Anjoman-NoEn-SemiBold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-SemiBold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-SemiBold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: normal;
+	font-weight: 750;
+	src: url('fonts/eot/Anjoman-NoEn-ExtraBold.eot');
+	src: url('fonts/eot/Anjoman-NoEn-ExtraBold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-ExtraBold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-ExtraBold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: normal;
+	font-weight: 800;
+	src: url('fonts/eot/Anjoman-NoEn-UltraBold.eot');
+	src: url('fonts/eot/Anjoman-NoEn-UltraBold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-UltraBold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-UltraBold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: normal;
+	font-weight: 850;
+	src: url('fonts/eot/Anjoman-NoEn-Black.eot');
+	src: url('fonts/eot/Anjoman-NoEn-Black.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-Black.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: normal;
+	font-weight: 900;
+	src: url('fonts/eot/Anjoman-NoEn-Heavy.eot');
+	src: url('fonts/eot/Anjoman-NoEn-Heavy.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-Heavy.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-Heavy.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: normal;
+	font-weight: 1000;
+	src: url('fonts/eot/Anjoman-NoEn-SuperHeavy.eot');
+	src: url('fonts/eot/Anjoman-NoEn-SuperHeavy.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-SuperHeavy.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-SuperHeavy.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: normal;
+	font-weight: bold;
+	src: url('fonts/eot/Anjoman-NoEn-Bold.eot');
+	src: url('fonts/eot/Anjoman-NoEn-Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-Bold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/eot/Anjoman-NoEn-Regular.eot');
+	src: url('fonts/eot/Anjoman-NoEn-Regular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-Regular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-Regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+
+/**
+Italic fonts	
+**/
+
+
+@font-face {
+	font-family: Anjoman;
+	font-style: italic;
+	font-weight: 100;
+	src: url('fonts/eot/Anjoman-NoEn-ThinItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-ThinItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-ThinItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-ThinItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: italic;
+	font-weight: 200;
+	src: url('fonts/eot/Anjoman-NoEn-ExtraLightItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-ExtraLightItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-ExtraLightItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: italic;
+	font-weight: 300;
+	src: url('fonts/eot/Anjoman-NoEn-LightItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-LightItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-LightItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-LightItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: italic;
+	font-weight: 500;
+	src: url('fonts/eot/Anjoman-NoEn-MediumItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-MediumItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-MediumItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-MediumItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: italic;
+	font-weight: 600;
+	src: url('fonts/eot/Anjoman-NoEn-SemiBoldItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-SemiBoldItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-SemiBoldItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: italic;
+	font-weight: 750;
+	src: url('fonts/eot/Anjoman-NoEn-ExtraBoldItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-ExtraBoldItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-ExtraBoldItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: italic;
+	font-weight: 800;
+	src: url('fonts/eot/Anjoman-NoEn-UltraBoldItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-UltraBoldItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-UltraBoldItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-UltraBoldItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: italic;
+	font-weight: 850;
+	src: url('fonts/eot/Anjoman-NoEn-BlackItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-BlackItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-BlackItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-BlackItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: italic;
+	font-weight: 900;
+	src: url('fonts/eot/Anjoman-NoEn-HeavyItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-HeavyItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-HeavyItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-HeavyItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: italic;
+	font-weight: 1000;
+	src: url('fonts/eot/Anjoman-NoEn-SuperHeavyItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-SuperHeavyItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-SuperHeavyItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-SuperHeavyItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: italic;
+	font-weight: bold;
+	src: url('fonts/eot/Anjoman-NoEn-BoldItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-BoldItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-BoldItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-BoldItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: italic;
+	font-weight: normal;
+	src: url('fonts/eot/Anjoman-NoEn-Italic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-Italic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-Italic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-Italic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+
+/**
+Condensed fonts	
+**/
+
+
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed;
+	font-weight: 100;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedCondensedThin.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedCondensedThin.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedCondensedThin.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedCondensedThin.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed;
+	font-weight: 200;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedExtraLight.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedExtraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedExtraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedExtraLight.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed;
+	font-weight: 300;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedLight.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedLight.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed;
+	font-weight: 500;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedMedium.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedMedium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedMedium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedMedium.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed;
+	font-weight: 600;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedSemiBold.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedSemiBold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedSemiBold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedSemiBold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed;
+	font-weight: 750;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedExtraBold.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedExtraBold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedExtraBold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedExtraBold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed;
+	font-weight: 800;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedUltraBold.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedUltraBold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedUltraBold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedUltraBold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed;
+	font-weight: 850;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedBlack.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedBlack.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedBlack.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedBlack.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed;
+	font-weight: 900;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedHeavy.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedHeavy.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedHeavy.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedHeavy.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed;
+	font-weight: 1000;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedSuperHeavy.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedSuperHeavy.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedSuperHeavy.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedSuperHeavy.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed;
+	font-weight: bold;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedBold.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedBold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedBold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedBold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed;
+	font-weight: normal;
+	src: url('fonts/eot/Anjoman-NoEn-Condensed.eot');
+	src: url('fonts/eot/Anjoman-NoEn-Condensed.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-Condensed.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-Condensed.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+
+/**
+CondensedItalic fonts	
+**/
+
+
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed italic;
+	font-weight: 100;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedThinItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedThinItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedThinItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedThinItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed italic;
+	font-weight: 200;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedExtraLightItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedExtraLightItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedExtraLightItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedExtraLightItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed italic;
+	font-weight: 300;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedLightItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedLightItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedLightItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedLightItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed italic;
+	font-weight: 500;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedMediumItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedMediumItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedMediumItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedMediumItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed italic;
+	font-weight: 600;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedSemiBoldItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedSemiBoldItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedSemiBoldItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedSemiBoldItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed italic;
+	font-weight: 750;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedExtraBoldItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedExtraBoldItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedExtraBoldItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedExtraBoldItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed italic;
+	font-weight: 800;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedUltraBoldItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedUltraBoldItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedUltraBoldItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedUltraBoldItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed italic;
+	font-weight: 850;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedBlackItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedBlackItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedBlackItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedBlackItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed condensed italic;
+	font-weight: 900;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedHeavyItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedHeavyItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedHeavyItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedHeavyItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed italic;
+	font-weight: 1000;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedSuperHeavyItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedSuperHeavyItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedSuperHeavyItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedSuperHeavyItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed italic;
+	font-weight: bold;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedBoldItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedBoldItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedBoldItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedBoldItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: Anjoman;
+	font-style: condensed italic;
+	font-weight: normal;
+	src: url('fonts/eot/Anjoman-NoEn-CondensedItalic.eot');
+	src: url('fonts/eot/Anjoman-NoEn-CondensedItalic.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/Anjoman-NoEn-CondensedItalic.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/Anjoman-NoEn-CondensedItalic.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
